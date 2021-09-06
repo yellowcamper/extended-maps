@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node1" title=" " alt="" coords="5,35,79,61"/>
-<area shape="rect" id="node2" href="$classextended_1_1map.html" title=" " alt="" coords="127,5,285,32"/>
-<area shape="rect" id="node3" href="$classextended_1_1map_3_01_a_00_01std_1_1string_01_4.html" title=" " alt="" coords="129,57,283,98"/>
+<area shape="rect" id="node2" href="$classextended_1_1map.html" title="The memory saving version of std::map&lt;A, B&gt;." alt="" coords="127,5,285,32"/>
+<area shape="rect" id="node3" href="$classextended_1_1map_3_01_a_00_01std_1_1string_01_4.html" title="The memory saving version of std::map&lt;A, std::string&gt;." alt="" coords="129,57,283,98"/>
 </map>
