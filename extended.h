@@ -1,7 +1,7 @@
 /**
  *  \file extended.h
  *  \brief Home of the extended namespace, extended::map, and extended::null.
- *  \nosubgrouping
+ *  \copyright Kenneth Michael (Mikey) Neal (c) 5 September 2021 under GNU GENERAL PUBLIC LICENSE Version 3 (c) 29 June 2007
  */
 #ifndef __EXTENDED_H__
 #define __EXTENDED_H__
