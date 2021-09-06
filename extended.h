@@ -3,7 +3,7 @@
  * \details This is a C++ class that extends the \c std::map class. It adds functionality to disregard "default values" so that the application will not take up more memory than is necessary. It also has a \c NULL that can be used for almost any datatype.
  * \n \n
  * --- Github repository link: <a href="https://github.com/yellowcamper/extended-maps">https://github.com/yellowcamper/extended-maps</a>
- * \n \n
+ * \n
  * \author Kenneth Michael (Mikey) Neal
  * \date Initial Upload: 5 September 2021
  * \copyright Kenneth Michael (Mikey) Neal (c) 5 September 2021 under GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
