@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Better Maps", "index.html", [
+    [ "extended-maps", "md__r_e_a_d_m_e.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
