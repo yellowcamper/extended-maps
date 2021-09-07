@@ -5,3 +5,4 @@
 *.png linguist-detectable=false
 *.md5 linguist-detectable=false
 *.map linguist-detectable=false
+*.bat linguist-detectable=false
