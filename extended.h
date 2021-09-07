@@ -12,7 +12,12 @@
 
 /**
  * \file extended.h
- * \brief Home of the extended namespace, extended::map, and extended::null.
+ * \brief Home of the \c extended namespace, \c extended::map, and \c extended::null.
+ * \details --- Github repository link: <a href="https://github.com/yellowcamper/extended-maps">https://github.com/yellowcamper/extended-maps</a>
+ * \author Kenneth Michael (Mikey) Neal
+ * \date Initial Upload: 5 September 2021
+ * \copyright Kenneth Michael (Mikey) Neal (c) 5 September 2021 under GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+ * \remark This code is still prerelease, do please report any bugs or errors through the github issue tracker.
  */
 #ifndef __EXTENDED_H__
 #define __EXTENDED_H__
