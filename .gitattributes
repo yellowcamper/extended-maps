@@ -1,0 +1,8 @@
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.svg linguist-detectable=false
+*.png linguist-detectable=false
+*.md5 linguist-detectable=false
+*.map linguist-detectable=false
+*.bat linguist-detectable=false
