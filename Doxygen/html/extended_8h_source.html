@@ -309,7 +309,7 @@ $(document).ready(function(){initNavTree('extended_8h_source.html',''); initResi
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>            (*this).operator[](input.first) = input.second;</div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((*this).count(input.first) &gt; 0) {</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>            <span class="keyword">auto</span> it = (*this).begin();</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>            std::advance(it, input.first);</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>            it = (*this).find(input.first);</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>            (*this).erase(it);</div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        }</div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    }</div>
@@ -409,7 +409,7 @@ $(document).ready(function(){initNavTree('extended_8h_source.html',''); initResi
 <div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>            (*this).std::map&lt;A, std::string&gt;::operator[](input.first) = input.second;</div>
 <div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((*this).std::map&lt;A, std::string&gt;::count(input.first) &gt; 0) {</div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>            <span class="keyword">auto</span> it = (*this).std::map&lt;A, std::string&gt;::begin();</div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>            std::advance(it, input.first);</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>            it = (*this).find(input.first);</div>
 <div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>            (*this).std::map&lt;A, std::string&gt;::erase(it);</div>
 <div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>        }</div>
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>    }</div>
