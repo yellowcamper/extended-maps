@@ -222,7 +222,7 @@ namespace extended {
 			(*this).operator[](input.first) = input.second;
 		} else if ((*this).count(input.first) > 0) {
 			auto it = (*this).begin();
-			std::advance(it, input.first);
+			it = (*this).find(input.first);
 			(*this).erase(it);
 		}
 	}
@@ -322,7 +322,7 @@ namespace extended {
 			(*this).std::map<A, std::string>::operator[](input.first) = input.second;
 		} else if ((*this).std::map<A, std::string>::count(input.first) > 0) {
 			auto it = (*this).std::map<A, std::string>::begin();
-			std::advance(it, input.first);
+			it = (*this).find(input.first);
 			(*this).std::map<A, std::string>::erase(it);
 		}
 	}
